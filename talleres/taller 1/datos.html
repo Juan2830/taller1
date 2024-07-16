@@ -3,79 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>datos</title>
+    <title>Datos estadísticos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1 style="text-align: center;">Datos estadisticos sobre el impacto de las tecnologías web en la sociedad moderna.</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Introducción</a></li>  
-                <li><a href="articulos.html">Articulos</a></li>
-                <li><a href="contacto.html">Contacto</a></li> 
-            </ul>
-        </nav>
+    <!-- Enlace para saltar al contenido principal -->
+    <a href="#contenido-principal" class="skip-link">Saltar al contenido principal</a>
+
+    <header class="header-blue">
+        <div class="header-container">
+            <img src="img/icono.png" alt="Icono" class="icon">
+            <h1>Innovación Digital en la Sociedad Moderna</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Introducción</a></li>
+                    <li><a href="articulos.html">Artículos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
-    <article>
-        <img src="img/Dimagen1.avif" alt="Descripción de la imagen" style="display: block; margin: 30px auto; width: 350px; height: auto;">
-        <h2>Datos informativos</h2>
-        <p>Tabla 1.</p>
-    </article>
-    <table style="margin: 0 auto; border-collapse: collapse; width: 80%;">
-        <tr>
-            <th>Aspecto</th>
-            <th>Datos Estadísticos</th>
-        </tr>
-        <tr>
-            <td>Adopción de Internet en la Sociedad</td>
-            <td>80% de la población mundial tiene acceso a Internet</td>
-        </tr>
-        <tr>
-            <td>Crecimiento del Comercio Electrónico</td>
-            <td>El comercio electrónico creció un 20% en el último año</td>
-        </tr>
-        <tr>
-            <td>Influencia de la Web 2.0 en las Empresas</td>
-            <td>El 70% de las empresas incorporan tecnologías de la web 2.0 en sus operaciones</td>
-        </tr>
-        <tr>
-            <td>Impacto de la Inteligencia Artificial</td>
-            <td>El 60% de las empresas utilizan inteligencia artificial en sus procesos</td>
-        </tr>
-        <tr>
-            <td>Uso de Servicios Web en las Organizaciones</td>
-            <td>El 90% de las organizaciones utilizan servicios web para integrar sus procesos de negocio</td>
-        </tr>
-    </table>
-    <img src="img/Dimagen2.jpg" alt="Descripción de la imagen" style="display: block; margin: 30px auto; width: 350px; height: auto;">
-    <p>Tabla 2.</p>
-    <table style="margin: 0 auto; border-collapse: collapse; width: 80%;">
-        <tr>
-            <th>Aspecto</th>
-            <th>Datos Estadísticos</th>
-        </tr>
-        <tr>
-            <td>Uso de Redes Sociales en la Sociedad</td>
-            <td>El 72% de los usuarios de Internet están activos en al menos una red social</td>
-        </tr>
-        <tr>
-            <td>Impacto del Marketing Digital en las Empresas</td>
-            <td>El 85% de las empresas consideran que el marketing digital es crucial para su éxito</td>
-        </tr>
-        <tr>
-            <td>Crecimiento de la Publicidad en Línea</td>
-            <td>El gasto en publicidad en línea aumentó un 10% en el último año</td>
-        </tr>
-        <tr>
-            <td>Empleo de Tecnologías Web en la Educación</td>
-            <td>El 95% de las instituciones educativas utilizan plataformas web para la enseñanza</td>
-        </tr>
-        <tr>
-            <td>Seguridad en las Transacciones en Línea</td>
-            <td>El 78% de los consumidores se sienten seguros al realizar compras en línea</td>
-        </tr>
-    </table>
+    <main id="contenido-principal">
+        <article class="article-background">
+            <h2>Datos informativos</h2>
+        </article>
+
+        <!-- Enlace para saltar al final de la tabla 1 -->
+        <a href="#fin-tabla1" class="skip-link1">Saltar al final de la tabla 1</a>
+        <section class="tabla1">
+            <table summary="Datos estadísticos sobre la adopción de Internet, comercio electrónico y tecnologías en las empresas">
+                <caption>Estadísticas sobre la adopción de tecnologías web</caption>
+                <tr>
+                    <th>Aspecto</th>
+                    <th>Datos Estadísticos</th>
+                </tr>
+                <tr>
+                    <td>Adopción de Internet en la Sociedad</td>
+                    <td>80% de la población mundial tiene acceso a Internet</td>
+                </tr>
+                <tr>
+                    <td>Crecimiento del Comercio Electrónico</td>
+                    <td>El comercio electrónico creció un 20% en el último año</td>
+                </tr>
+                <tr>
+                    <td>Influencia de la Web 2.0 en las Empresas</td>
+                    <td>El 70% de las empresas incorporan tecnologías de la web 2.0 en sus operaciones</td>
+                </tr>
+                <tr>
+                    <td>Impacto de la Inteligencia Artificial</td>
+                    <td>El 60% de las empresas utilizan inteligencia artificial en sus procesos</td>
+                </tr>
+                <tr>
+                    <td>Uso de Servicios Web en las Organizaciones</td>
+                    <td>El 90% de las organizaciones utilizan servicios web para integrar sus procesos de negocio</td>
+                </tr>
+            </table>
+            <!-- Identificador para el final de la tabla 1 -->
+            <div id="fin-tabla1"></div>
+        </section>
+
+        <!-- Enlace para saltar al final de la tabla 2 -->
+        <a href="#fin-tabla2" class="skip-link2">Saltar al final de la tabla 2</a>
+        <section class="tabla2">
+            <img src="img/Dimagen2.jpg" alt="Descripción de la imagen">
+            <table summary="Datos estadísticos sobre el uso de redes sociales, marketing digital y tecnologías en la educación">
+                <caption>Estadísticas sobre el uso de tecnologías en diferentes sectores</caption>
+                <tr>
+                    <th>Aspecto</th>
+                    <th>Datos Estadísticos</th>
+                </tr>
+                <tr>
+                    <td>Uso de Redes Sociales en la Sociedad</td>
+                    <td>El 72% de los usuarios de Internet están activos en al menos una red social</td>
+                </tr>
+                <tr>
+                    <td>Impacto del Marketing Digital en las Empresas</td>
+                    <td>El 85% de las empresas consideran que el marketing digital es crucial para su éxito</td>
+                </tr>
+                <tr>
+                    <td>Crecimiento de la Publicidad en Línea</td>
+                    <td>El gasto en publicidad en línea aumentó un 10% en el último año</td>
+                </tr>
+                <tr>
+                    <td>Empleo de Tecnologías Web en la Educación</td>
+                    <td>El 95% de las instituciones educativas utilizan plataformas web para la enseñanza</td>
+                </tr>
+                <tr>
+                    <td>Seguridad en las Transacciones en Línea</td>
+                    <td>El 78% de los consumidores se sienten seguros al realizar compras en línea</td>
+                </tr>
+            </table>
+            <!-- Identificador para el final de la tabla 2 -->
+            <div id="fin-tabla2"></div>
+        </section>
+    </main>
+
     <footer>
         <p>&copy; 2024 Innovación digital</p>
     </footer>
